@@ -61,18 +61,37 @@ main {
 	margin: 0 5vw 0 5vw;
 }
 /*====================
-    TOPO
+    HEADER
 ====================*/
 header nav {
     margin: 5vw 5vw 5vw 5vw;
     display: flex;
+    justify-content: space-between;
 }
 header nav ul {
    display: flex;
-   justify-content: right;
 }
 header nav ul li {
     margin: 0 2vw 0 0;
     font-size: 0.8rem;
     color: #553C16 ;
+    padding: 7px;
+    font-weight: bold;
+}
+/*====================
+    MAIN TOPO
+====================*/
+main section.topo  {
+    display: flex;
+}
+main section.topo h1 {
+    font-size: 2rem;
+    margin: 7vw 2vw 5vw 2vw;
+}
+main section.topo div div {
+    display: flex;
+}
+main section.topo div p {
+    color: #404852;
+    margin: 7vw 2vw 1vw 2vw;
 }
