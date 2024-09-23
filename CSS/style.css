@@ -83,15 +83,78 @@ header nav ul li {
 ====================*/
 main section.topo  {
     display: flex;
+    justify-content: space-between;
 }
 main section.topo h1 {
     font-size: 2rem;
-    margin: 7vw 2vw 5vw 2vw;
+    margin: 7vw 2vw 5vw 0; 
+    border-bottom: 2px #E5E5E5 solid;
+    padding: 0 0 3vw 0;
 }
-main section.topo div div {
-    display: flex;
+main section.topo div.info {
+    display: flex; 
+    margin: 5vw 0 0 0;
 }
-main section.topo div p {
+main section.topo div.info div p span {
     color: #404852;
-    margin: 7vw 2vw 1vw 2vw;
+}
+main section.topo div.topo-info {
+    width: 60vw;
+}
+main section.topo div.topo-info div.info div p {
+    margin: 0 1vw 1vw 0;
+}
+main section.topo div.topo-info div.info div img {
+    margin: 0 1vw 1vw 0;
+    width: 4vw;
+}
+/*====================
+    MAIN MEIO
+====================*/
+main section.meio {
+    border-top: 1.5px #9E9B9B solid;
+    display: flex;
+    padding: 5vw 5vw 5vw 0;
+    margin: 5vw 0 0 0;
+}
+main section.meio div h2 {
+    font-size: 2rem;
+    margin: 0 0 2vw 0;
+}
+main section.meio div p {
+   color: #404852;
+   width: 50vw;
+}
+main section.meio ul li h3 span {
+    color: #9E9B9B;
+    font-weight: bold;
+}
+main section.meio ul li {
+    border-bottom: 1.5px #9E9B9B solid;
+    margin: 0 5vw 3vw 5vw;
+    padding: 0 3vw 3vw 3vw;
+}
+main section.meio ul li h3 {
+    font-size: 1.3rem;
+}
+main section.meio ul li p {
+    color: #9E9B9B;
+    margin: 2vw 0 0 0;
+}
+/*==================
+     FOOTER
+==================*/
+footer {
+	text-align: center;
+	margin: 4vw 0 4vw 0;
+    border-top: 1.5px #9E9B9B solid;
+    padding: 5vw 5vw 5vw 5vw;
+}
+footer ul {
+	display: flex;
+	justify-content: center;
+}
+footer ul li {
+	margin: 0 10px 10px 10px;
+	font-size: 1.5rem;
 }
